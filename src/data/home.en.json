@@ -1,6 +1,6 @@
 {
   "name": "Victor Sevillano",
-  "photoUrl": "foto_perfil.jpg",
+  "photoUrl": "/foto_perfil.jpg",
   "intro": "Data Engineer specializing in cloud migration, ETL/ELT optimization, and Big Data environments. Passionate about transforming complex data into efficient, high-impact financial and technical solutions.",
   "introHtml": "Data Engineer specializing in <span class='text-white font-bold'>cloud migration</span>, ETL/ELT optimization, and Big Data. Passionate about building <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> technical-financial solutions.",
   "webpageTitle": "Victor Sevillano | Data Engineer",

@@ -1,6 +1,6 @@
 {
   "name": "Victor Sevillano",
-  "photoUrl": "foto_perfil.jpg",
+  "photoUrl": "/foto_perfil.jpg",
   "intro": "Ingeniero de Datos especializado en migración a la nube, optimización de procesos ETL/ELT y entornos de Big Data. Enfocado en crear soluciones técnico-financieras eficientes y de alto impacto.",
   "introHtml": "Ingeniero de Datos especializado en <span class='text-white font-bold'>migración a la nube</span> y Big Data. Enfocado en crear soluciones técnico-financieras <span class='text-white font-bold'>eficientes</span> y de <span class='text-white font-bold'>alto impacto</span> para el sector Fintech.",
   "webpageTitle": "Víctor Sevillano | Ingeniero de Datos",
