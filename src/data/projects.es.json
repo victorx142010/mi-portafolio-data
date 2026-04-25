@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Datathon LODCoreMadrid",
+    "description": "Sistema de recomendación de vivienda en Madrid mediante Oracle Cloud. Implementé una arquitectura serverless con NLP para convertir preferencias de usuario en mapas de calor dinámicos con baja latencia.",
+    "images": ["lodcore-1.webp", "#"],
+    "tech": ["Python", "Oracle Cloud (OCI)", "NLP", "Serverless"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Hackathon (3er Puesto)"
+  },
+  {
+    "title": "RobotX Challenge 2022",
+    "description": "Desarrollo de sistemas para Tumi Robotics. Creé la interfaz de comunicación inalámbrica vehículo-estación mediante Flask e integré datos de cámaras hiperespectrales para análisis submarino.",
+    "images": ["robotx-1.webp", "#"],
+    "tech": ["Python", "Flask", "IoT", "Mecatrónica"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Competición Internacional"
+  },
+  {
+    "title": "Chatbot de Reservas WhatsApp",
+    "description": "Solución de automatización para emprendimientos de servicios (salones de belleza, clínicas). Integra la API de WhatsApp con una arquitectura escalable para la gestión automática de citas.",
+    "images": ["chatbot-1.webp", "#"],
+    "tech": ["JavaScript", "Vercel", "Supabase", "WhatsApp API"],
+    "platforms": ["whatsapp", "web"],
+    "link": "#",
+    "category": "Emprendimiento"
+  }
+]

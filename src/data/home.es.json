@@ -1,0 +1,72 @@
+{
+  "name": "Victor Sevillano",
+  "photoUrl": "favicon.svg",
+  "intro": "Ingeniero de Datos especializado en migración a la nube, optimización de procesos ETL/ELT y entornos de Big Data. Enfocado en crear soluciones técnico-financieras eficientes y de alto impacto.",
+  "introHtml": "Ingeniero de Datos especializado en <span class='text-white font-bold'>migración a la nube</span> y Big Data. Enfocado en crear soluciones técnico-financieras <span class='text-white font-bold'>eficientes</span> y de <span class='text-white font-bold'>alto impacto</span> para el sector Fintech.",
+  "webpageTitle": "Víctor Sevillano | Ingeniero de Datos",
+  "resumeUrl": "/CV_Victor_Sevillano_2026_ES.pdf",
+
+  "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/victorx142010",
+      "icon": "mdi:github",
+      "showInContact": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/victor-sevillanom/",
+      "icon": "mdi:linkedin",
+      "showInContact": true
+    },
+    {
+      "name": "Leetcode",
+      "url": "#",
+      "icon": "devicon-plain:leetcode",
+      "showInContact": false
+    },
+    {
+      "name": "Behance",
+      "url": "#",
+      "icon": "devicon-plain:behance",
+      "showInContact": false
+    },
+    {
+      "name": "Email",
+      "url": "mailto:victor.sevillanom@protonmail.com",
+      "icon": "mdi:email",
+      "showInContact": true
+    },
+    {
+      "name": "Whatsapp",
+      "url": "https://wa.me/34611910878",
+      "icon": "mdi:whatsapp",
+      "showInContact": true
+    },
+    {
+      "name": "Facebook",
+      "url": "#",
+      "icon": "mdi:facebook",
+      "showInContact": false
+    },
+    {
+      "name": "Messenger",
+      "url": "#",
+      "icon": "mdi:facebook-messenger",
+      "showInContact": false
+    },
+    {
+      "name": "Instagram",
+      "url": "#",
+      "icon": "mdi:instagram",
+      "showInContact": false
+    },
+    {
+      "name": "Twitter",
+      "url": "#",
+      "icon": "mdi:twitter",
+      "showInContact": false
+    }
+  ]
+}

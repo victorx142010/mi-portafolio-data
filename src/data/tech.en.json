@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "title": "Programming & Languages",
+      "skills": [
+        { "name": "Python", "level": 3, "icon": "skill-icons:python-dark" },
+        { "name": "SQL (T-SQL, Oracle)", "level": 3, "icon": "vscode-icons:file-type-sql" },
+        { "name": "Scala", "level": 2, "icon": "skill-icons:scala-dark" },
+        { "name": "R", "level": 2, "icon": "skill-icons:r-dark" }
+      ]
+    },
+    {
+      "title": "Cloud & Big Data",
+      "skills": [
+        { "name": "Microsoft Azure", "level": 3, "icon": "mdi:microsoft-azure" },
+        { "name": "Azure Databricks", "level": 3, "icon": "mdi:cloud-check" },
+        { "name": "Azure Data Factory", "level": 3, "icon": "mdi:database-sync" },
+        { "name": "PySpark / Spark", "level": 3, "icon": "mdi:flash" }
+      ]
+    },
+    {
+      "title": "Data Engineering & DevOps",
+      "skills": [
+        { "name": "ETL/ELT Design", "level": 3, "icon": "mdi:database-sync" },
+        { "name": "Terraform", "level": 2, "icon": "skill-icons:terraform-dark" },
+        { "name": "Git", "level": 3, "icon": "skill-icons:git" },
+        { "name": "Jenkins (CI/CD)", "level": 2, "icon": "skill-icons:jenkins-dark" }
+      ]
+    },
+    {
+      "title": "Analytics & Machine Learning",
+      "skills": [
+        { "name": "Power BI", "level": 2, "icon": "logos:microsoft-power-bi" },
+        { "name": "Machine Learning", "level": 2, "icon": "mdi:brain" },
+        { "name": "Predictive Models", "level": 2, "icon": "mdi:chart-bell-curve-cumulative" },
+        { "name": "Automation (RPA)", "level": 3, "icon": "mdi:robot-industrial" }
+      ]
+    }
+  ]
+}

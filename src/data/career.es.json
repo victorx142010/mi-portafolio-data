@@ -1,0 +1,34 @@
+[
+  {
+    "company": "NTT Data",
+    "role": "Pasante de Consultoría en Negocios y Tecnología",
+    "period": "Mar 2026 - Presente",
+    "type": "Pasantía",
+    "description": "Estructuración de hojas de ruta tecnológicas y cronogramas para proyectos de transformación digital en el sector de seguros. Desarrollo de análisis técnico-financieros y documentación esencial para la implementación de soluciones de TI a gran escala.",
+    "skills": ["Hojas de Ruta", "Transformación Digital", "Análisis de Negocios", "Documentación"]
+  },
+  {
+    "company": "Management Solutions (BCP)",
+    "role": "Ingeniero de Datos",
+    "period": "Sep 2023 - Ago 2025",
+    "type": "Trabajo a tiempo completo",
+    "description": "Migración de procesos de transformación de datos de On-Premise a Azure Databricks y Data Factory. Refactorización de pipelines ETL/ELT utilizando SQL y PySpark. Optimización del rendimiento, reduciendo el tiempo de procesamiento en un 80%. Liderazgo de un equipo de validación de datos.",
+    "skills": ["Azure Databricks", "Azure Data Factory", "SQL", "PySpark", "ETL/ELT", "Liderazgo"]
+  },
+  {
+    "company": "Pontificia Universidad Católica del Perú - Departamento de TI",
+    "role": "Ingeniero de Datos",
+    "period": "Ago 2022 - Jun 2023",
+    "type": "Trabajo a tiempo completo",
+    "description": "Diseño de bases de datos On-Premise para la gestión de inventarios. Desarrollo de aplicaciones en Python con OCR y web scraping. Implementación de sistemas de análisis de datos, reduciendo el equipo obsoleto en un 90%.",
+    "skills": ["Python", "OCR", "Web scraping", "Diseño de Bases de Datos", "Automatización"]
+  },
+  {
+    "company": "DT Technical Solutions",
+    "role": "Ingeniero de Datos Jr.",
+    "period": "Ene 2022 - Jul 2022",
+    "type": "Pasantía",
+    "description": "Automatización del despliegue de infraestructura en la nube de Azure utilizando Terraform. Desarrollo y optimización de pipelines ETL con Azure Databricks y SQL para datos de mantenimiento de flota. Mejora de la calidad y trazabilidad de los datos.",
+    "skills": ["Azure Cloud", "Terraform", "ETL", "SQL", "Databricks"]
+  }
+]
