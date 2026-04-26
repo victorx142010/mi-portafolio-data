@@ -1,0 +1,20 @@
+[
+  {
+    "institution": "Universidad Carlos III de Madrid",
+    "degree": "Máster en Tecnologías del Sector Financiero: Fintech",
+    "period": "Sep. 2025 - Actualidad",
+    "location": "Madrid, España"
+  },
+  {
+    "institution": "Pontificia Universidad Católica del Perú",
+    "degree": "Diplomado Business Analytics",
+    "period": "Nov. 2023 - Abr. 2024",
+    "location": "Lima, Perú"
+  },
+  {
+    "institution": "Pontificia Universidad Católica del Perú",
+    "degree": "Grado en Ingeniería Mecatrónica - Décimo superior",
+    "period": "Mar. 2018 - Dic. 2022",
+    "location": "Lima, Perú"
+  }
+]

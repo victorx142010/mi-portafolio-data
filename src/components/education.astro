@@ -1,0 +1,84 @@
+---
+import { Icon } from 'astro-icon/components';
+import esData from '../data/education.es.json';
+import enData from '../data/education.en.json';
+
+const currentPath = Astro.url.pathname;
+const isEnglish = currentPath.startsWith('/en');
+const educationData = isEnglish ? enData : esData;
+---
+
+<section id="education" class="section-container overflow-hidden">
+  <div class="container mx-auto max-w-4xl">
+    <div class="education-header mb-12">
+      <h2 class="text-3xl md:text-4xl font-heading font-bold text-maintext mb-2 flex items-center gap-4">
+        <span class="text-accent">/</span> {isEnglish ? "Education" : "Educación"}
+      </h2>
+      <p class="text-subtext font-body text-sm max-w-md">
+        {isEnglish ? "My academic background and qualifications." : "Mi formación académica y titulaciones."}
+      </p>
+    </div>
+
+    <div class="space-y-6">
+      {educationData.map((item) => (
+        <div class="edu-card opacity-0 transform translate-y-8 transition-all duration-700 bg-accent/5 border border-accent/10 p-6 rounded-2xl hover:border-accent/40 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div class="flex items-start gap-4">
+            <div class="mt-1 p-2 bg-background rounded-lg border border-accent/20 text-accent">
+              <Icon name="mdi:school" class="w-6 h-6" />
+            </div>
+            <div>
+              <h3 class="text-xl font-heading font-bold text-maintext">{item.degree}</h3>
+              <p class="text-accent text-sm mt-1">{item.institution}</p>
+            </div>
+          </div>
+          <div class="md:text-right flex flex-col gap-1 shrink-0 ml-14 md:ml-0">
+            <span class="font-mono text-xs tracking-widest uppercase text-accent/75 bg-background px-3 py-1 rounded-full border border-accent/10 inline-block w-fit md:w-auto">
+              {item.period}
+            </span>
+            <span class="text-subtext text-xs">{item.location}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .edu-card.reveal, .education-header.reveal {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  .education-header {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+</style>
+
+<script>
+  const initEduReveal = () => {
+    const header = document.querySelector('.education-header');
+    const cards = document.querySelectorAll('.edu-card');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const target = entry.target as HTMLElement;
+          if (target.classList.contains('edu-card')) {
+            const index = Array.from(cards).indexOf(target);
+            setTimeout(() => target.classList.add('reveal'), index * 150);
+          } else {
+            target.classList.add('reveal');
+          }
+          observer.unobserve(target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -20px 0px' });
+
+    if (header) observer.observe(header);
+    cards.forEach(card => observer.observe(card));
+  };
+
+  window.addEventListener('load', initEduReveal);
+  document.addEventListener('astro:after-swap', initEduReveal);
+</script>
