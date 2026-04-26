@@ -7,6 +7,7 @@ const currentPath = Astro.url.pathname;
 const isEnglish = currentPath.startsWith('/en');
 const toggleUrl = isEnglish ? '/' : '/en/';
 const toggleText = isEnglish ? 'ES' : 'EN';
+const minWidthValue = isEnglish ? 620 : 780;
 
 interface NavItem {
   label: string;
@@ -24,6 +25,11 @@ const navItems: NavItem[] = [
     label: isEnglish ? "Career" : "Trayectoria",
     href: "#career",
     icon: `mdi:work`,
+  },
+  {
+    label: isEnglish ? "Education" : "Educación",
+    href: "#education",
+    icon: `mdi:school`,
   },
   {
     label: isEnglish ? "Projects" : "Proyectos",
@@ -220,43 +226,39 @@ const navItems: NavItem[] = [
   }
 </style>
 
-<script>
-  //scroll morphing effect, changing width & border radius
+<script define:vars={{ minWidthValue }}>
+  // scroll morphing effect, changing width & border radius
   const nav = document.getElementById("main-nav");
   const themeWrapper = document.getElementById("theme-toggle-wrapper");
 
   const maxScroll = 1000;
   let lastScrollY = window.scrollY;
-  let rafId: number | null = null;
+  let rafId = null; 
 
   function updateNav() {
     const currentScrollY = window.scrollY;
-
     if (currentScrollY > 0) {
       nav?.classList.add("scrolling");
 
       const scrollProgress = Math.min(window.scrollY / maxScroll, 1);
       const easeProgress = 1 - Math.pow(1 - scrollProgress, 4);
 
-      const minWidth = 620;
+      const minWidth = minWidthValue; // Usando la variable inyectada
       const maxWidth = window.innerWidth * 0.8;
       const currentWidth = maxWidth - (maxWidth - minWidth) * easeProgress;
-
+      
       if (window.innerWidth >= 768) {
         nav?.style.setProperty("width", `${currentWidth}px`);
       }
     } else {
       nav?.classList.remove("scrolling");
-      // nav?.style.setProperty("width", "80%");
     }
+
     if (window.innerWidth < 768) {
-      // Small buffer (e.g. 10px) to prevent accidental hiding on "jittery" scrolls
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
-        // Scrolling Down - Hide Nav & theme-toggle
         nav?.classList.add("nav-hidden");
         themeWrapper?.classList.add("theme-hidden");
       } else {
-        // Scrolling Up - Show Nav & theme-toggle
         nav?.classList.remove("nav-hidden");
         themeWrapper?.classList.remove("theme-hidden");
       }
@@ -276,11 +278,11 @@ const navItems: NavItem[] = [
     { passive: true }
   );
 
-  //smooth scrolling to a linked section
+  // Smooth scrolling
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
-      const target = e.currentTarget as HTMLAnchorElement;
+      const target = e.currentTarget; // Eliminado "as HTMLAnchorElement"
       const targetId = target.getAttribute("href")?.substring(1) || "";
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
@@ -291,13 +293,13 @@ const navItems: NavItem[] = [
     });
   });
 
-  //highlight section by observing visible one on the screen by 50%
+  // Highlight section
   document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section[id]");
     const navLinks = document.querySelectorAll("nav a[href^='#']");
     const observerOptions = { threshold: 0.5 };
 
-    const observerCallback = (entries: IntersectionObserverEntry[]) => {
+    const observerCallback = (entries) => { // Eliminado ": IntersectionObserverEntry[]"
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           navLinks.forEach((link) => link.classList.remove("active"));
