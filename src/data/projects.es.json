@@ -1,20 +1,20 @@
 [
   {
     "title": "Datathon LODCoreMadrid",
-    "description": "Sistema de recomendación de vivienda en Madrid mediante Oracle Cloud. Implementé una arquitectura serverless con NLP para convertir preferencias de usuario en mapas de calor dinámicos con baja latencia.",
-    "images": ["lodcore-1.webp", "#"],
+    "description": "Sistema de recomendación de vivienda en Madrid mediante Oracle Cloud. Implementé una arquitectura serverless con NLP para convertir preferencias de usuario en mapas de calor dinámicos con baja latencia. [API inoperativa debido a desuso]",
+    "images": ["lodcore.png","lodcore2.jpeg","premiodatathon.jpg"],
     "tech": ["Python", "Oracle Cloud (OCI)", "NLP", "Serverless"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://objectstorage.eu-madrid-1.oraclecloud.com/n/ax9ygcexclg9/b/mi-pagina-mapa/o/mapa.html",
     "category": "Hackathon (3er Puesto)"
   },
   {
     "title": "RobotX Challenge 2022",
     "description": "Desarrollo de sistemas para Tumi Robotics. Creé la interfaz de comunicación inalámbrica vehículo-estación mediante Flask e integré datos de cámaras hiperespectrales para análisis submarino.",
-    "images": ["robotx-1.webp", "#"],
+    "images": ["robotx.jpg", "robotx2.jpg"],
     "tech": ["Python", "Flask", "IoT", "Mecatrónica"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://robonation.org/app/uploads/sites/2/2022/10/RX22_TDR_Pontifica-Peru.pdf",
     "category": "Competición Internacional"
   },
   {
