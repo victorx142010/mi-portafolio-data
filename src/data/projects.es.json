@@ -20,7 +20,7 @@
   {
     "title": "Chatbot de Reservas WhatsApp",
     "description": "Solución de automatización para emprendimientos de servicios (salones de belleza, clínicas). Integra la API de WhatsApp con una arquitectura escalable para la gestión automática de citas.",
-    "images": ["chatbot-1.webp", "#"],
+    "images": ["chatbot1.png", "chatbot2.png"],
     "tech": ["JavaScript", "Vercel", "Supabase", "WhatsApp API"],
     "platforms": ["whatsapp", "web"],
     "link": "#",
