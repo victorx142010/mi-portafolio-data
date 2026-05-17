@@ -2,25 +2,25 @@
   {
     "title": "LODCore Madrid Datathon",
     "description": "A housing decision-support system in Madrid using Oracle Cloud. Developed a full serverless architecture and NLP logic to transform user preferences into real-time heat maps.",
-    "images": ["lodcore-1.webp", "#"],
+    "images": ["lodcore.png","lodcore2.jpeg","premiodatathon.jpg"],
     "tech": ["Python", "Oracle Cloud (OCI)", "NLP", "Serverless"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://objectstorage.eu-madrid-1.oraclecloud.com/n/ax9ygcexclg9/b/mi-pagina-mapa/o/mapa.html",
     "category": "Hackathon (3rd Place)"
   },
   {
     "title": "RobotX Challenge 2022",
     "description": "System development for Tumi Robotics. Built the vessel-to-station wireless communication interface using Flask and integrated hyperspectral camera data for underwater analysis.",
-    "images": ["robotx-1.webp", "#"],
+    "images": ["robotx.jpg", "robotx2.jpg"],
     "tech": ["Python", "Flask", "IoT", "Mechatronics"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://robonation.org/app/uploads/sites/2/2022/10/RX22_TDR_Pontifica-Peru.pdf",
     "category": "International Competition"
   },
   {
     "title": "WhatsApp Booking Chatbot",
     "description": "An end-to-end automation solution for service businesses. Integrates WhatsApp API with cloud infrastructure to streamline appointment scheduling for clinics and salons.",
-    "images": ["chatbot-1.webp", "#"],
+    "images": ["chatbot1.png", "chatbot2.png"],
     "tech": ["JavaScript", "Vercel", "Supabase", "WhatsApp API"],
     "platforms": ["whatsapp", "web"],
     "link": "#",

@@ -68,5 +68,22 @@
       "icon": "mdi:twitter",
       "showInContact": false
     }
+  ],
+  "certifications": [
+    {
+      "name": "Azure Data Engineer Associate",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/victorsevillanom/AD087AC99A920DB4?sharingId=423478B9A6AF5D79",
+      "image": "/dp203.png"
+    },
+    {
+      "name": "Microsoft Fabric Data Engineering",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/victorsevillanom/8DDD6D6B6921B838?sharingId=423478B9A6AF5D79",
+      "image": "/dp700.png"
+    },
+    {
+      "name": "Azure Fundamentals",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/victorsevillanom/22E9CA083A6CFFD6?sharingId=423478B9A6AF5D79",
+      "image": "/az900.png"
+    }
   ]
 }
