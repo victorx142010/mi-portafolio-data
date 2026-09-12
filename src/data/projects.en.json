@@ -5,7 +5,7 @@
     "images": ["lodcore.png","lodcore2.jpeg","premiodatathon.jpg"],
     "tech": ["Python", "Oracle Cloud (OCI)", "NLP", "Serverless"],
     "platforms": ["web"],
-    "link": "https://objectstorage.eu-madrid-1.oraclecloud.com/n/ax9ygcexclg9/b/mi-pagina-mapa/o/mapa.html",
+    "link": "https://madrid-a-tu-medida.vercel.app/",
     "category": "Hackathon (3rd Place)"
   },
   {
